@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">TwinMindAssignment</string>
+    <string name="transcription_failed">Transcription failed</string>
+    <string name="segment">Segment %1$d</string>
+    <string name="queued">%1$s queued</string>
+    <string name="generating_summary">Generating summary…</string>
+    <string name="summary_will_generate_automatically_once_transcription_is_complete">Summary will generate automatically\nonce transcription is complete.</string>
+    <string name="summary_generation_failed">Summary generation failed.</string>
+
+    <!-- MainActivity / HomeScreen -->
+    <string name="title_transcriptions">Transcriptions</string>
+    <string name="cd_record">Record</string>
+    <string name="empty_transcriptions">No transcriptions yet. Tap + to start recording.</string>
+
+    <!-- RecorderActivity / RecorderScreen -->
+    <string name="status_ready">Ready to record</string>
+    <string name="status_paused_phone_call">Paused · Phone call</string>
+    <string name="status_paused_audio_focus">Paused · Audio focus lost</string>
+    <string name="status_stopped_low_storage">Stopped · Low storage</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_no_audio">No audio · Check microphone</string>
+    <string name="status_recording">Recording</string>
+    <string name="title_recording">Recording</string>
+    <string name="cd_back">Back</string>
+    <string name="error_mic_permission">Microphone permission is required.</string>
+    <string name="cd_stop_recording">Stop recording</string>
+    <string name="cd_start_recording">Start recording</string>
+
+    <!-- TranscriptSummaryPanel -->
+    <string name="tab_transcript">Transcript</string>
+    <string name="tab_summary">Summary</string>
+
+    <!-- TranscriptPanel -->
+    <string name="segments_done">%1$d of %2$d segments done</string>
+    <string name="error_loading_transcripts">Error loading transcripts</string>
+    <string name="loading_transcription">Preparing transcription…</string>
+    <string name="empty_transcript">No transcript yet.\nStart recording to see segments appear here.</string>
+
+    <!-- Summary UI -->
+    <string name="retry">Retry</string>
+    <string name="label_summary">Summary</string>
+    <string name="label_action_items">Action Items</string>
+    <string name="label_key_points">Key Points</string>
+    <string name="generating_dot">Generating…</string>
+
+    <!-- SummaryStatusBadge -->
+    <string name="badge_summary_ready">Summary ready</string>
+    <string name="badge_summarizing">Summarizing…</string>
+    <string name="badge_summary_queued">Summary queued</string>
+    <string name="badge_summary_failed">Summary failed</string>
+
+    <!-- TranscribingChunkRow -->
+    <string name="transcribing_label">Transcribing %1$s…</string>
+
+    <!-- RecordingMetadata -->
+    <string name="duration_minutes_seconds">%1$dm %2$ds</string>
+    <string name="duration_seconds">%1$ds</string>
+
+    <!-- Notification / AudioService -->
+    <string name="notification_channel_name">Audio Recording</string>
+    <string name="notification_paused_phone_call">Paused – Phone call</string>
+    <string name="notification_paused_audio_focus">Paused – Audio focus</string>
+    <string name="notification_stopped_low_storage">Stopped – Low storage</string>
+    <string name="notification_recorded_at">Recorded: %1$s</string>
+    <string name="notification_via_source">Via %1$s</string>
+    <string name="notification_action_pause">Pause</string>
+    <string name="notification_action_resume">Resume</string>
+    <string name="notification_action_stop">Stop</string>
+    <string name="notification_short_rec">Rec</string>
+    <string name="notification_short_paused">Paused</string>
+    <string name="recording_title_prefix">Recording %1$d</string>
+
+    <!-- AudioDeviceUtils -->
+    <string name="source_bluetooth">Bluetooth headset</string>
+    <string name="source_wired">Wired headset</string>
+    <string name="source_mic">Built-in microphone</string>
+</resources>
